@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bootstrap Workshop</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="container-fluid">
+      <nav class="container d-flex align-items-center justify-content-between">
+        <img src="/img/Logo-trabook.png" alt="Trabook Company Logo" />
+
+        <div class="text-decoration-none d-flex gap-5 ms-5">
+          <a class="text-decoration-none nav-links" href="#">Home</a>
+          <a class="text-decoration-none nav-links" href="#">About</a>
+          <a class="text-decoration-none nav-links" href="#">Destination</a>
+          <a class="text-decoration-none nav-links" href="#">Tour</a>
+          <a class="text-decoration-none nav-links" href="#">Blog</a>
+        </div>
+
+        <div class="d-flex gap-5">
+          <button class="btn-login">
+            <a href="#" class="text-decoration-none btn-login">Login</a>
+          </button>
+          <button class="btn-sign">Sign Up</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero__info mt-2">
+          <div class="w-100">
+            <h1 class="mb-5 hero__info--title">
+              Get started your exciting <span>journey</span> with us.
+            </h1>
+            <p class="pb-5 hero__info--p">
+              A Team of experienced tourism professionals will provide you with
+              the best advice and tips for your desire place.
+            </p>
+            <button class="mt-1 hero__info--btn">Discover Now</button>
+          </div>
+
+          <div class="w-100">
+            <img src="/img/hero-img.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          class="hero-card bg-white m-auto shadow d-flex justify-content-around align-items-center"
+        >
+          <div>
+            <h4 class="mt-2">
+              Location
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fa7436"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </h4>
+
+            <p class="mt-3">Where are you going</p>
+          </div>
+
+          <div>
+            <h4 class="mt-2">
+              Date
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fa7436"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </h4>
+
+            <p class="mt-3">When you will go</p>
+          </div>
+
+          <div>
+            <h4 class="mt-2">
+              Guest
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fa7436"
+                class="bi bi-chevron-down"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </h4>
+
+            <p class="mt-3">Number of guest</p>
+          </div>
+
+          <button class="hero__card--button">Explore Now</button>
+        </div>
+      </section>
+
+      <section class="todo">
+        <h2 class="text-center todo__title">
+          Things you need <span>to do</span>
+        </h2>
+        <p class="text-center todo__p">
+          We ensure that you’ll embark on a perfectly planned, safe vacation at
+          a price you can afford.
+        </p>
+
+        <div class="container d-flex justify-content-around">
+          <div class="todo__card shadow">
+            <img src="/img/Group-1.png" alt="" class="todo__card--img" />
+
+            <h3 class="todo__card--title">Sign Up</h3>
+            <p class="todo__card--paragraph">
+              Completes all the work associated with planning and processing.
+            </p>
+          </div>
+          <div class="todo__card shadow">
+            <img src="/img/Group-2.png" alt="" class="todo__card--img" />
+
+            <h3 class="todo__card--title">Worth of Money</h3>
+            <p class="todo__card--paragraph">
+              After successful access then book from exclusive deals & pricing.
+            </p>
+          </div>
+          <div class="todo__card shadow">
+            <img src="/img/Group-3.png" alt="" class="todo__card--img" />
+
+            <h3 class="todo__card--title">Exciting Travel</h3>
+            <p class="todo__card--paragraph">
+              Start and explore a wide range of exciting travel experience.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="discounts">
+        <h2 class="text-center discounts__title">
+          Exclusive <span>deals & discounts</span>
+        </h2>
+        <p class="text-center discounts__subtitle">
+          Discover our fantastic early booking discounts & start planning your
+          journey.
+        </p>
+
+        <!-- 4 Cards -->
+        <div
+          class="container d-flex align-items-center justify-content-around"
+          style="margin-top: 64px; margin-bottom: 48px; position: relative"
+        >
+          <!-- Start Card -->
+          <div class="discounts__card--container shadow">
+            <img src="img/discount-1.png" alt="Madrid" class="img-fluid" />
+            <div class="discounts__hover-bg">
+              <button class="discounts__hover--btn">Book Now</button>
+            </div>
+
+            <div style="margin: 32px 18px">
+              <div class="d-flex align-items-center justify-content-between">
+                <h4 class="discounts__card--title">Madrid</h4>
+
+                <div class="d-flex align-items-center gap-1">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small class="discounts__card--val mt-1">4.8</small>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                  <img src="img/location.svg" alt="" />
+                  <small class="discounts__card--location">Spain</small>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <small class="discounts__card--old-price">$950</small>
+                  <small class="discounts__card--new-price">$850</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Cart -->
+          <!-- Start Card -->
+          <div class="discounts__card--container shadow">
+            <img src="img/discount-2.png" alt="Madrid" class="img-fluid" />
+            <div class="discounts__hover-bg">
+              <button class="discounts__hover--btn">Book Now</button>
+            </div>
+
+            <div style="margin: 32px 18px">
+              <div class="d-flex align-items-center justify-content-between">
+                <h4 class="discounts__card--title">Firenze</h4>
+
+                <div class="d-flex align-items-center gap-1">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small class="discounts__card--val mt-1">4.5</small>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                  <img src="img/location.svg" alt="" />
+                  <small class="discounts__card--location">Italy</small>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <small class="discounts__card--old-price">$850</small>
+                  <small class="discounts__card--new-price">$750</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Cart -->
+          <!-- Start Card -->
+          <div class="discounts__card--container shadow">
+            <img src="img/discount-3.png" alt="Madrid" class="img-fluid" />
+            <div class="discounts__hover-bg">
+              <button class="discounts__hover--btn">Book Now</button>
+            </div>
+
+            <div style="margin: 32px 18px">
+              <div class="d-flex align-items-center justify-content-between">
+                <h4 class="discounts__card--title">Paris</h4>
+
+                <div class="d-flex align-items-center gap-1">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small class="discounts__card--val mt-1">4.4</small>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                  <img src="img/location.svg" alt="" />
+                  <small class="discounts__card--location">France</small>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <small class="discounts__card--old-price">$699</small>
+                  <small class="discounts__card--new-price">$599</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Cart -->
+          <!-- Start Card -->
+          <div class="discounts__card--container shadow">
+            <img src="img/discount-4.png" alt="Madrid" class="img-fluid" />
+            <div class="discounts__hover-bg">
+              <button class="discounts__hover--btn">Book Now</button>
+            </div>
+
+            <div style="margin: 32px 18px">
+              <div class="d-flex align-items-center justify-content-between">
+                <h4 class="discounts__card--title">London</h4>
+
+                <div class="d-flex align-items-center gap-1">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small class="discounts__card--val mt-1">4.8</small>
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                  <img src="img/location.svg" alt="" />
+                  <small class="discounts__card--location">UK</small>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <small class="discounts__card--old-price">$850</small>
+                  <small class="discounts__card--new-price">$750</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Cart -->
+        </div>
+
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-center gap-4">
+            <button class="plans__arrow plans__arrow--prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-left"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                />
+              </svg>
+            </button>
+            <button class="plans__arrow plans__arrow--next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fff"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="plans">
+        <h2 class="todo__title text-center">Best <span>vacation plan</span></h2>
+        <p class="text-center plans-subtitle">
+          Plan your perfect vacation with our travel agency. Choose among
+          hundreds of all-inclusive offers!
+        </p>
+
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-end gap-4">
+            <button class="plans__arrow plans__arrow--prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-left"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                />
+              </svg>
+            </button>
+            <button class="plans__arrow plans__arrow--next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fff"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="container d-flex align-items-center justify-content-between"
+          style="margin-top: 32px"
+        >
+          <!-- Card -->
+
+          <div class="plans__card--container shadow">
+            <img
+              src="img/plan-1.png"
+              alt="London"
+              class="plans__card--img img-fluid"
+            />
+
+            <div class="plans__card--info">
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="margin-bottom: 16px"
+              >
+                <h4 class="plans__card--title">Rome, Italy</h4>
+                <span class="plans__card--price">$5.42k</span>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <img src="img/Vector.svg" alt="Location image" />
+                  <small>10 Days Trip</small>
+                </div>
+
+                <div class="d-flex align-items-center">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small>4.8</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card -->
+
+          <!-- Card -->
+
+          <div class="plans__card--container shadow">
+            <img
+              src="img/plan-2.png"
+              alt="London"
+              class="plans__card--img img-fluid"
+            />
+
+            <div class="plans__card--info">
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="margin-bottom: 16px"
+              >
+                <h4 class="plans__card--title">London, UK</h4>
+                <span class="plans__card--price">$2.43k</span>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <img src="img/Vector.svg" alt="Location image" />
+                  <small>07 Days Trip</small>
+                </div>
+
+                <div class="d-flex align-items-center">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small>4.7</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card -->
+
+          <!-- Card -->
+
+          <div class="plans__card--container shadow">
+            <img
+              src="img/plan-3.png"
+              alt="London"
+              class="plans__card--img img-fluid"
+            />
+
+            <div class="plans__card--info">
+              <div
+                class="d-flex align-items-center justify-content-between"
+                style="margin-bottom: 16px"
+              >
+                <h4 class="plans__card--title">Osaka, Japan</h4>
+                <span class="plans__card--price">$5.42k</span>
+              </div>
+
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <img src="img/Vector.svg" alt="Location image" />
+                  <small>10 Days Trip</small>
+                </div>
+
+                <div class="d-flex align-items-center">
+                  <img src="img/star.svg" alt="Star logo" />
+                  <small>4.8</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End card -->
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container testimonials__container">
+          <div class="testimonials__container--left">
+            <h2 class="testimonials__title">
+              What Peoplle say <span>about us.</span>
+            </h2>
+            <p class="testimonials__paragraph">
+              Our Clients send us bunch of smilles with our services and we love
+              them.
+            </p>
+
+            <div class="d-flex align-items-center justify-content-start gap-5">
+              <button class="plans__arrow plans__arrow--prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-arrow-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                  />
+                </svg>
+              </button>
+              <button class="plans__arrow plans__arrow--next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="#fff"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div style="position: relative">
+            <div class="testimonials__container--right shadow">
+              <img
+                src="img/testimonial-profile.png"
+                alt="Testimonial Profile picture"
+                class="testimonials__profile"
+              />
+              <blockquote class="testimonials__quote">
+                “On the Windows talking painted pasture yet its express parties
+                use. Sure last upon he same as knew next. Of believed or
+                diverted no.”
+              </blockquote>
+
+              <p class="testimonials__name">Mike taylor</p>
+              <small class="testimonials__location">Lahore, Pakistan</small>
+            </div>
+
+            <div class="next__testimonial shadow">
+              <blockquote class="testimonials__quote">
+                “On the Windows talking painted pasture yet its express parties
+                use. Sure last upon he same as knew next. Of believed or
+                diverted no.”
+              </blockquote>
+
+              <p class="testimonials__name">Chris Thomas</p>
+              <small class="testimonials__location">CEO of Red Button</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog -->
+      <section class="blog">
+        <div class="container">
+          <h2 class="blog__title">Get update with <span>latest blog</span></h2>
+
+          <div class="d-flex align-items-center justify-content-center gap-4">
+            <!-- Start Card -->
+            <div class="blog__card">
+              <img src="img/blog-1.png" alt="" style="height: 270px" />
+              <h4 class="blog__card--title">
+                The Amazing Difference a Year of Travelling.
+              </h4>
+              <p class="blog__card--paragraph">July 27, 2021</p>
+            </div>
+            <!-- End Card -->
+
+            <!-- Start Card -->
+            <div class="blog__card">
+              <img src="img/blog-2.png" alt="" style="height: 270px" />
+              <h4 class="blog__card--title">
+                Travel far enough, you meet yourself.
+              </h4>
+              <p class="blog__card--paragraph">July 27, 2021</p>
+            </div>
+            <!-- End Card -->
+
+            <!-- Start Card -->
+            <div class="blog__card">
+              <img src="img/blog-3.png" alt="" style="height: 270px" />
+              <h4 class="blog__card--title">
+                How to Save Money While Visiting Africa .
+              </h4>
+              <p class="blog__card--paragraph">July 27, 2021</p>
+            </div>
+            <!-- End Card -->
+
+            <!-- Start Card -->
+            <div class="blog__card">
+              <img src="img/blog-4.png" alt="" style="height: 270px" />
+              <h4 class="blog__card--title">
+                Reflections on 5 Months of Travel: Time to Hang.
+              </h4>
+              <p class="blog__card--paragraph">July 27, 2021</p>
+            </div>
+            <!-- End Card -->
+          </div>
+
+          <div
+            class="d-flex align-items-center justify-content-center gap-2 mt-5"
+          >
+            <div role="button" class="blog__button--prev"></div>
+            <div role="button" class="blog__button--act"></div>
+            <div role="button" class="blog__button--next"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer__relative">
+        <!-- CTA -->
+        <div
+          class="cta container d-flex flex-column align-items-center justify-content-center gap-5"
+        >
+          <h2 class="cta__title fw-bold text-center">
+            Subscribe and get exclusive deals & offers
+          </h2>
+
+          <form>
+            <img src="img/mail-icon.png" alt="Mail Icon" />
+            <input
+              type="email"
+              placeholder="Enter your mail"
+              class="cta__input"
+            />
+            <button type="submit" class="cta__btn shadow">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="d-flex justify-content-between mb-5" style="height: 210px">
+          <div class="social__container">
+            <img src="img/Logo-trabook.png" alt="Trabook.png" />
+            <p>Book your trip in minute, get full Control for much longer.</p>
+            <div class="d-flex align-items-center gap-4">
+              <div class="social__icon shadow">
+                <svg
+                  width="6"
+                  height="13"
+                  viewBox="0 0 6 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M5.54485 2.79909C5.2326 2.70031 4.8735 2.63445 4.54563 2.63445C4.1397 2.63445 3.26538 2.91434 3.26538 3.45765V4.75831H5.34189V6.94803H3.26538V12.9903H1.17327V6.94803H0.142822V4.75831H1.17327V3.65522C1.17327 1.99235 1.89146 0.609375 3.62448 0.609375C4.21776 0.609375 5.27943 0.642303 5.85711 0.856335L5.54485 2.79909Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <div class="social__icon shadow">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.5667 0.933594H2.5C1.12167 0.933594 0 2.05526 0 3.43359V15.5003C0 16.8789 1.12167 18.0003 2.5 18.0003H14.5667C15.9453 18.0003 17.0667 16.8789 17.0667 15.5003V3.43359C17.0667 2.05526 15.9453 0.933594 14.5667 0.933594ZM16.0667 15.5003C16.0667 16.3273 15.3937 17.0003 14.5667 17.0003H2.5C1.673 17.0003 1 16.3273 1 15.5003V3.43359C1 2.60659 1.673 1.93359 2.5 1.93359H14.5667C15.3937 1.93359 16.0667 2.60659 16.0667 3.43359V15.5003Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M14.0334 2.9668C13.4821 2.9668 13.0334 3.41546 13.0334 3.9668C13.0334 4.51813 13.4821 4.9668 14.0334 4.9668C14.5848 4.9668 15.0334 4.51813 15.0334 3.9668C15.0334 3.41546 14.5848 2.9668 14.0334 2.9668Z"
+                    fill="currentColor"
+                  />
+                  <path
+                    d="M8.53345 4.9668C6.05211 4.9668 4.03345 6.98546 4.03345 9.4668C4.03345 11.9481 6.05211 13.9668 8.53345 13.9668C11.0148 13.9668 13.0334 11.9481 13.0334 9.4668C13.0334 6.98546 11.0148 4.9668 8.53345 4.9668ZM8.53345 12.9668C6.60345 12.9668 5.03345 11.3968 5.03345 9.4668C5.03345 7.5368 6.60345 5.9668 8.53345 5.9668C10.4634 5.9668 12.0334 7.5368 12.0334 9.4668C12.0334 11.3968 10.4634 12.9668 8.53345 12.9668Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+              <div class="social__icon shadow">
+                <svg
+                  width="17"
+                  height="14"
+                  viewBox="0 0 17 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.317 2.15967C15.7365 2.4143 15.118 2.58308 14.4731 2.66503C15.1365 2.26893 15.6429 1.6465 15.8809 0.896252C15.2624 1.26503 14.5795 1.52552 13.8517 1.67089C13.2643 1.04552 12.4273 0.658203 11.5141 0.658203C9.7424 0.658203 8.31606 2.09625 8.31606 3.85918C8.31606 4.11284 8.33752 4.35674 8.3902 4.58893C5.72971 4.45918 3.37557 3.18406 1.7941 1.24162C1.51801 1.72064 1.35606 2.26893 1.35606 2.85918C1.35606 3.96747 1.92679 4.94991 2.77752 5.51869C2.26337 5.50893 1.75898 5.35967 1.33167 5.12454C1.33167 5.1343 1.33167 5.14698 1.33167 5.15967C1.33167 6.71479 2.44093 8.0065 3.89557 8.30406C3.63508 8.37528 3.35118 8.40942 3.05654 8.40942C2.85167 8.40942 2.64484 8.39772 2.45069 8.35479C2.86532 9.62211 4.04191 10.5538 5.44093 10.5841C4.35215 11.4358 2.96971 11.9489 1.47313 11.9489C1.21069 11.9489 0.958983 11.9372 0.707275 11.905C2.12484 12.8192 3.80484 13.3411 5.61654 13.3411C11.5053 13.3411 14.7248 8.46308 14.7248 4.23479C14.7248 4.09333 14.72 3.95674 14.7131 3.82113C15.3483 3.3704 15.8819 2.80747 16.317 2.15967Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <nav class="d-flex justify-content-between" style="width: 600px">
+            <div>
+              <h4 class="nav__titles">Company</h4>
+              <ul class="list-unstyled">
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >About</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Careers</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Logistic</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 class="nav__titles">Contact</h4>
+              <ul class="list-unstyled">
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Help/FAQ</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Press</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Affilates</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div style="align-self: start">
+              <h4 class="nav__titles">More</h4>
+              <ul class="list-unstyled">
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Press Center</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Our Blog</a
+                  >
+                </li>
+                <li class="footer__links--separation">
+                  <a class="text-decoration-none footer__links" href="#"
+                    >Low fare tips</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <hr />
+
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="copyright">Copyright, Trabook 2022. All rights reserved.</p>
+          <p class="terms">Terms & Conditions</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
